@@ -1,0 +1,269 @@
+@charset "utf-8";
+html{
+  font-size: 10rem;
+}
+// body{
+//   min-width: 375px;
+// }
+.nav-box{
+  width: 100%;
+  height: 4.8rem;
+  background: #23ac38;
+}
+.nav{
+  width: 90%;
+  height:100%;
+  margin: 0 auto;
+  padding-top:1rem; 
+}
+.nav .left{
+  width:8.4rem;
+  height:2.8rem;
+  float: left;
+}
+.nav .left a img{
+  width:100%;
+  height:100%;
+}
+.nav .right{
+  margin-top:0.5rem;
+  width:2.1rem;
+  height:1.6rem;
+  float: right;
+}
+.nav .right a img{
+  width:100%;
+  height:100%;
+}
+.carousel-inner img{
+  width:100%;
+  height:100%;
+}
+.kand{
+  overflow: hidden;
+  width:90%;
+  margin:0 auto;
+}
+.kand ul a{
+  float: left;
+  width:25%;
+  border-right:0.1rem solid #e4e4e4;
+  margin:1.95rem auto;
+  text-align: center;
+}
+.kand ul a:last-child{
+    border-right:none;
+}
+.kand ul a li {
+  width:3.5rem;
+  height:3.5rem;
+  display: inline-block;
+}
+.kand ul a:last-child li{
+  width:4rem;
+  height:3.5rem;
+  display: inline-block;
+}
+.kand ul a li img{
+  width:100%;
+  height: 100%;
+}
+.kand ul a p{
+  line-height: 3rem;
+  font-size:1.4rem;
+  color:#272727;
+}
+.tiao{
+  width:100%;
+  height:1rem;
+  background:#eaeaea;
+}
+.cont{
+  overflow:hidden;
+  width:90%;
+  margin: 1.2rem auto;
+}
+.cont h2{
+  line-height:6rem;
+  font-size:2.4rem;
+  color:#515151;
+  font-weight: bold;
+
+}
+.cont ul li{
+  float:left;
+  width:25%;
+  text-align:center;
+  margin-bottom:1rem ;
+}
+.cont ul li a .img{
+  width:5rem;
+  height:5rem;
+  margin: 0 auto;
+
+}
+.cont ul li a img{
+  width: 100%;
+  height: 100%;
+}
+.cont ul li p.p1{
+  width: 100%;
+  height:2.5rem;
+  overflow:hidden;
+  margin-top:0.5rem;
+  line-height:2.5rem;
+  font-size:1.2rem;
+  font-weight: bold;
+  color:#797979;
+}
+.cont ul li p.p2{
+  font-size:1rem;
+  color:#d2d2d2;
+}
+.cont ul li p.p3{
+  width:5rem;
+  height:2.3rem;
+  font-size:1.2rem;
+  color:#62a66b;
+  background: #e0f2e2;
+  border-radius: 1.2rem;
+  margin:1rem auto;
+  line-height:2.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.con{
+  overflow:hidden;
+  width: 100%;
+  margin:3.5rem auto;
+}
+.con ul li{
+  width:23%;
+  height:3.8rem;
+  overflow:hidden;
+  float:left;
+  border:0.1rem solid #e9e9e9;
+  background: #f8f8f8;
+  margin:1rem 0.35rem;
+}
+.con ul li.l3,
+.con ul li:last-child{
+    margin-right: 0;
+}
+.con ul li .pic{
+  width:1.7rem;
+  height:1.7rem;
+  float:left;
+  margin:1.1rem 0 0 0.6rem ;
+}
+.con ul li .pic img{
+  width: 100%;
+  height: 100%;
+}
+.con ul li a span{
+  line-height:3.8rem;
+  color:#6d6d6d;
+  font-size:1.2rem;
+
+}
+.row{
+  width:100%;
+  margin:2rem auto;
+}
+.row>div{
+  padding-left:3px;
+  padding-right:3px; 
+}
+.row .thumbnail{
+  background: #f8f8f8;
+  border-radius:0;
+  border-color:#ebebeb;
+  text-align:center;
+  font-size:1.4rem;
+  color:#383838;
+
+}
+.row h2{
+  padding-left: 1rem;
+  line-height:6rem;
+  font-size:2.4rem;
+  color:#515151;
+  font-weight: bold;
+
+}
+.row p{
+  line-height:5rem;
+  height:5rem;
+  overflow:hidden;
+}
+.nv-box{
+  width:100%;
+}
+.nv-box h2{
+  padding-left: 1rem;
+  line-height:6rem;
+  font-size:2.4rem;
+  color:#515151;
+  font-weight: bold;
+}
+.nv-box .nv{
+  float:left;
+  width: 47%;
+  height:5rem;
+  border:1% solid #e9e9e9;
+  margin:0.5rem 1%;
+}
+.nv-box .nv img{
+  width: 100%;
+  height: 100%;
+}
+.row .thumbnail{
+  margin-bottom:0.5rem;
+
+}
+.row .thumbnail img{
+  width: 100%;
+  height: 100%;
+}
+.sou{
+   padding-bottom:2rem;
+  width:95%;
+  margin:0 auto;
+}
+.sou form{
+  position: relative;
+  width:90%;
+  height: 4rem;
+  margin:0 auto;
+  border:0.1rem solid #419851;
+  background: #00bd3c;
+}
+.sou form .txt{
+  padding-left:2%;
+  float:left;
+  width: 68%;
+  height: 100%;
+  background: #fff;
+  font-size:1.2rem;
+}
+.sou form i{
+  width: 2.4rem;
+  height: 2.2rem;
+  display:inline-block;
+  position:absolute;
+  top:1rem;
+  left:55%;
+}
+.sou form i img{
+  width: 100%;
+  height: 100%;
+}
+
+.sou form .btn{
+  width: 29%;
+  height: 100%;
+  background: #00bd3c;
+  outline: none;
+  color:#e1ffda;
+  font-size:1.2rem;
+}
